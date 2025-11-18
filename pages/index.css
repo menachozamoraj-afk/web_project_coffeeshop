@@ -96,23 +96,22 @@
 }
 
 .header__footer {
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   margin-top: auto;
-  padding-top: 88px;
 }
 
 .header__paragraph {
-  display: flex;
-  flex-direction: column;
   font-weight: 500;
   font-size: 16px;
-  margin-left: 80px;
-  margin-right: 80px;
 }
 
 .header__paragraph-text {
   margin: 0;
+  color: var(--grey-text-color);
 }
 
 .header__paragraph-text_color_grey {
