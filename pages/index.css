@@ -105,20 +105,19 @@
 }
 
 .header__paragraph {
+  margin: 0;
+
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
-}
-
-.header__paragraph-text {
-  margin: 0;
+  line-height: 20px;
   color: var(--grey-text-color);
 }
 
-.header__paragraph-text_color_grey {
+.header__paragraph_color_grey {
   color: var(--grey-text-color);
   margin-top: 5px;
 }
-
 .recipes {
   background-color: var(--recipes-background);
   background-image: url("../images/background_recipes.svg");
