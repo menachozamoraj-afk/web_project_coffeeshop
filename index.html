@@ -111,7 +111,75 @@
           </div>
         </section>
 
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+
+          <form class="reservation__form form">
+            <!-- Nombre -->
+            <label class="form__label">
+              Nombre *
+              <input
+                type="text"
+                class="form__input"
+                name="name"
+                placeholder="Nombre *"
+                required
+              />
+            </label>
+
+            <!-- Número de comensales -->
+            <label class="form__label">
+              Número de comensales *
+              <input
+                type="number"
+                class="form__input"
+                name="guests"
+                placeholder="1-8"
+                required
+              />
+            </label>
+
+            <!-- Fecha y hora -->
+            <label class="form__label">
+              Fecha y hora *
+              <input
+                type="datetime-local"
+                class="form__input"
+                name="datetime"
+                required
+              />
+            </label>
+
+            <!-- Correo -->
+            <label class="form__label">
+              Tu correo electrónico *
+              <input
+                type="email"
+                class="form__input"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+            </label>
+
+            <!-- Checkbox -->
+            <label class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                name="terms"
+                required
+                ckecked
+              />
+              Acepto los términos de uso
+            </label>
+
+            <!-- Botón -->
+            <button class="form__button" type="submit">
+              Reservar una mesa
+            </button>
+          </form>
+        </section>
       </main>
 
       <footer class="footer" id="contactos"></footer>
