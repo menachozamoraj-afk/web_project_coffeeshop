@@ -176,6 +176,8 @@
   background-position: center;
   padding: 100px 0 120px;
   text-align: center;
+  z-index: 1;
+  position: relative;
 }
 
 .reservation__title {
@@ -251,6 +253,7 @@
 }
 
 .footer {
+  position: relative;
   box-sizing: border-box;
   padding: 60px 80px;
   background-color: #0a2850;
@@ -263,7 +266,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
-  z-index: 2;
 }
 
 .footer__column_content_social {
@@ -284,9 +286,11 @@
   height: 340px;
   border-radius: 50%;
   background-color: #2f80ed;
-  z-index: 1;
+  z-index: 0;
   margin: 0;
   padding: 0;
+  top: -128px;
+  left: -44px;
 }
 
 .footer__column-heading {
