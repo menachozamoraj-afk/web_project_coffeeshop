@@ -1,11 +1,3 @@
-.reservation__form {
-  margin: 0 auto;
-  max-width: 385px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 32px;
-}
-
 .form__label {
   text-align: left;
   font-family: "Inter", Arial, sans-serif;
