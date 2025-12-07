@@ -6,6 +6,8 @@
   background-position: center;
   padding: 100px 0 120px;
   text-align: center;
+  z-index: -1;
+  position: relative;
 }
 
 .reservation__title {
@@ -17,12 +19,4 @@
   margin: 0 auto 80px;
   padding-top: 100px;
   text-align: center;
-}
-
-.reservation__form {
-  margin: 0 auto;
-  max-width: 385px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 32px;
 }
