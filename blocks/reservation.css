@@ -6,7 +6,7 @@
   background-position: center;
   padding: 100px 0 120px;
   text-align: center;
-  z-index: -1;
+  z-index: 1;
   position: relative;
 }
 
